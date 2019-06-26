@@ -77,7 +77,8 @@ if __name__ == '__main__':
 
     try:
         while True:
-             colorWipe(strip, Color(0, 0, 0),100)
+             colorWipe(strip, Color(0, 8, 0),100)
+             time.sleep(1)
              testFlag()
              time.sleep(3)
 

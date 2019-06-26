@@ -2,7 +2,7 @@
 
 FLASH_DELAY=0.25
 
-python  /home/pi/sis_recovery/scripts/rgbw_test.py &
+python  /home/pi/sis_recovery_qa/rgbw_test.py &
 
 # Setup the Pins as GPIO
 echo 2 > /sys/class/gpio/export
